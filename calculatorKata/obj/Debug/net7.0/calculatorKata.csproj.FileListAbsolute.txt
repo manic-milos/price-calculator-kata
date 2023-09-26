@@ -1,0 +1,14 @@
+C:\Users\master\source\repos\calculatorKata\calculatorKata\bin\Debug\net7.0\calculatorKata.exe
+C:\Users\master\source\repos\calculatorKata\calculatorKata\bin\Debug\net7.0\calculatorKata.deps.json
+C:\Users\master\source\repos\calculatorKata\calculatorKata\bin\Debug\net7.0\calculatorKata.runtimeconfig.json
+C:\Users\master\source\repos\calculatorKata\calculatorKata\bin\Debug\net7.0\calculatorKata.dll
+C:\Users\master\source\repos\calculatorKata\calculatorKata\bin\Debug\net7.0\calculatorKata.pdb
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.AssemblyInfoInputs.cache
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.AssemblyInfo.cs
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.dll
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\refint\calculatorKata.dll
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.pdb
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\calculatorKata.genruntimeconfig.cache
+C:\Users\master\source\repos\calculatorKata\calculatorKata\obj\Debug\net7.0\ref\calculatorKata.dll
