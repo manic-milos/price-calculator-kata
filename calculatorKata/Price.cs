@@ -19,18 +19,14 @@
         {
             return new Price(price.price * double.Round(amount, 2));
         }
-        public static Price operator *(Price price, float amount)
-        {
-            return new Price(price.price * float.Round(amount, 2));
-        }
 
-        public static Price operator +(Price price, float amount)
+        public static Price operator +(Price price, double amount)
         {
-            return new Price(price.price + float.Round(amount, 2));
+            return new Price(price.price + double.Round(amount, 2));
         }
-        public static Price operator -(Price price, float amount)
+        public static Price operator -(Price price, double amount)
         {
-            return new Price(price.price - float.Round(amount, 2));
+            return new Price(price.price - double.Round(amount, 2));
         }
         public static Price operator -(Price price)
         {

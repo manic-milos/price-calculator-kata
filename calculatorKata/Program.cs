@@ -7,17 +7,16 @@ Product p = new Product()
     UPC = 12345
 };
 
+Console.Write("Tax= ");
 float tax = (float)Convert.ToDouble(Console.ReadLine());
 
 var taxCalc = new TaxCalculator(tax);
-
+Console.Write("discount= ");
 float discountPercent = (float)Convert.ToDouble(Console.ReadLine());
 
 var discountCalc = new DiscountCalculator(discountPercent);
 
-var discount = discountCalc.DiscountAmount(p.Price);
+var reporter=new Reporter(taxCalc, discountCalc);
+reporter.Apply(p.Price);
 
-Console.WriteLine($"Tax amount = {taxCalc.CalculatePercentage(p.Price)}, Discount amount = {discount}");
-
-Console.WriteLine($"Price before {p.Price}, price after {taxCalc.Calculate(p.Price)-discount}.");
 Console.ReadLine();

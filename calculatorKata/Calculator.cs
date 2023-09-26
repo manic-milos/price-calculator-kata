@@ -1,18 +1,14 @@
 ﻿namespace calculatorKata
 {
-    internal class Calculator
+    internal class PercentageCalculator
     {
         readonly double percentage;
 
-        public Calculator(double percentage)
+        public PercentageCalculator(double percentage)
         {
             this.percentage = percentage;
         }
 
-        public Price Calculate(Price price)
-        {
-            return price * ((percentage + 100.0) / 100.0);
-        }
 
         public Price CalculatePercentage(Price price)
         {

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace calculatorKata
 {
+
     internal class Product
     {
         public string Name { get; set; } = "";

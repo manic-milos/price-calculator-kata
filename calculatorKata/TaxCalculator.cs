@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace calculatorKata
 {
-    internal class TaxCalculator :Calculator
+    internal class TaxCalculator : PercentageCalculator, IApplicableToPrice
     {
 
         public TaxCalculator(double tax)
-            :base(tax)
+            : base(tax)
         {
+        }
+
+        public Price Apply(Price price)
+        {
+            return price + CalculatePercentage(price);
         }
 
     }

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace calculatorKata
 {
-    internal class DiscountCalculator : Calculator
+    internal class DiscountCalculator : PercentageCalculator, IApplicableToPrice
     {
-        public DiscountCalculator(double percentage) : base(-percentage)
+        public DiscountCalculator(double percentage) : base(percentage)
         {
         }
-        public Price DiscountAmount(Price price)
+        public Price Apply(Price price)
         {
-            return -this.CalculatePercentage(price);
+            return price-CalculatePercentage(price);
         }
     }
 }
